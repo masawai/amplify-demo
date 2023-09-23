@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
-
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -113,6 +112,37 @@ export default function Home() {
           </p>
         </a>
       </div>
+      {/* <div>
+        <h1>Table</h1>
+        <table>
+          <thead>
+            <tr>
+              <th>果物</th>
+              <th>野菜</th>
+              <th>肉</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>りんご</td>
+              <td>きゅうり</td>
+              <td>鶏肉</td>
+            </tr>
+            <tr>
+              <td>ぶどう</td>
+              <td>なす</td>
+              <td>豚肉</td>
+            </tr>
+            <tr>
+              <td>みかん</td>
+              <td>とまと</td>
+              <td>牛肉</td>
+            </tr>
+          </tbody>
+        </table>
+      </div> */
+
+      }
     </main>
   )
 }
