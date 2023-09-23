@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <script src="https://d2mpvn8z9vgh9g.cloudfront.net/lex-web-ui-loader.min.js"></script>
+        <script async src="https://d2mpvn8z9vgh9g.cloudfront.net/lex-web-ui-loader.min.js"></script>
       </Head>
       <body>
         <Main />
